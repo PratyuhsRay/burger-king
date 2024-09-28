@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5ebdc;
+}
+#header{
+    width: 99.7%;
+    height: 70px;
+    /* background-color: aqua; */
+    border-bottom: 1px solid rgba(104, 102, 102, 0.421);
+}
+#logo{
+    margin: 15px 0 0 700px;
+    position: absolute;
+    color: rgb(57, 38, 38);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#cartBtn button{
+    margin: 20px 0 0 1300px;
+    position: absolute;
+    height:30px;
+    width: 120px;
+    border: 0px;
+    border-radius: 30px;
+}
+.btn{
+    color: white;
+    background-color: orangered;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#upper-container{
+    width: 99.7%;
+    height: 450px;
+    /* background-color: blueviolet; */
+}
+#left{
+    margin: 50px 0 0 150px;
+    position: absolute;
+}
+#start{
+    font-size: 4rem;
+    width: 350px;
+    color: rgb(57, 38, 38);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0 0 10px 0;
+}
+.pickDel{
+    height: 60px;
+    width: 280px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 10px 0 0 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#delivery button{
+
+    border: 1px solid orangered;
+    color: orangered;
+}
+#imgEffect{
+    margin: 0 0 0 700px;
+    width: 780px;
+    height: 430px;
+}
+#footer{
+    display: flex;
+    /* flex: wrap; */
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 15px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    z-index: 0;
+    background-color: #f5ebdc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+.bottombtn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    width: 190px;
+    margin: 20px 0 20px 30px;
+}
+#label{
+    text-align: center;
+    background-color: #502314;
+    color:  #f5ebdc;
+    padding: 20px 0 20px 0;
+}
